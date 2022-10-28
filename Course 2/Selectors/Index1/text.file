@@ -1,0 +1,12 @@
+
+jQuery Selectors
+
+jQuery selectors allow you to select and manipulate HTML element(s).
+
+The element selectors
+
+The jQuery element selector selects elements based on the element name.
+
+You can select all <p> elements on a page like this :
+
+$("p");

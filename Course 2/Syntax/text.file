@@ -1,0 +1,33 @@
+
+The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the element(s).
+
+Basic syntax is : $(selector).action();
+
+A $ sign to define/access jQuery
+
+A (selector) to "query(or find)" HTML elements
+
+A jQuery action() to be performed on the element(s)
+
+$(this).hide() - hides the current element.
+
+$("p").hide() - hides all <p> elements.
+$(".test").hide() - hides all element with class = "test".
+$("#test").hide() - hides the element with id = "test".
+
+The Document Ready Event
+
+We might have noticed that all jQuery methods in our examples, are inside a document ready event
+
+$(document).ready(function() {
+
+    // jQuery methods go here.....
+
+})
+
+The Document Ready Event --> This is to prevent any jQuery code from running before the document is finished loading (is ready).
+
+If we don't use Ready Event then what happened
+Here are some examples of actions that can fail if methods are run before the document is fully loaded.
+
+
